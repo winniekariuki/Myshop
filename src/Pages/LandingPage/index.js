@@ -15,6 +15,7 @@ export class LandingPage extends Component {
     super(props);
     this.state = {
       products: [],
+      isLoading: true,
       viewableProducts: 12
     };
   }
@@ -23,7 +24,7 @@ export class LandingPage extends Component {
   }
   componentWillReceiveProps(newProps) {
     this.setState({
-      products: newProps.products
+      products: newProps.products,
     });
   }
   handleLoadMore = () => {
@@ -44,9 +45,9 @@ export class LandingPage extends Component {
         </div>
 
         <div className="products">
-          {product_list &&
-            product_list.map((product, index) => (
-              <ProductCard product={product} key={index} />
+          {product_list.map((product, index) => (
+            <ProductCard product={product} key={index} />
+            
             ))}
           <button
             type="button"
