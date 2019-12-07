@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
+.productCard {
+  height: 462px;
+  width: 250px;
+  position: relative;
+  border: none;
+  margin-left: 31px;
+  margin-bottom: 20px;
+  margin-top: inherit;
+  flex-grow: inherit;
+  background-color: #ffffff;
+}
+
+.product-image {
+  height: 234px;
+  width: 156px;
+  margin-top: 40px;
+  align-self: center;
+}
+
+.top-left {
+  padding-left: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #55d187;
+  height: 28px;
+  width: 78px;
+  border-top: 28px solid #55d187;
+  border-right: 8px solid white;
+}
+.benefit-value {
+  padding-left: 15px;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  z-index: 3;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+  line-height: 14px;
+  text-align: center;
+}
+.product-title {
+  color: #171717;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.product-main-text {
+  color: #777777;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.price {
+  color: #55d187;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.previous-price {
+  color: #787878;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-left: 20px;
+  main-text-decoration:" line-through";
+}
+
+@media (max-width: 842px) {
+  .card {
+    width: 200px;
+  }
+  .product-image {
+    height: 234px;
+    width: 156px;
+  }
+  .previous-price {
+    line-height: 2px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 476px) {
+  .card {
+    width: 150px;
+  }
+  .product-image {
+    height: 234px;
+    width: 130px;
+  }
+  .previous-price {
+    line-height: 2px;
+    margin-left: 5px;
+  }
+}

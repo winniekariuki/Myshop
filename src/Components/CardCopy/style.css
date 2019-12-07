@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
+
+#retailer-card {
+  height: 427px;
+  width: 700px;
+  background-image: url("https://res.cloudinary.com/dievrxv8v/image/upload/v1575573516/readytosell_idhhk2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.ready-sell {
+  min-height: 114px;
+  width: 245px;
+  color: #231f20;
+  font-size: 49px;
+  font-weight: 800;
+  line-height: 57px;
+  padding-left: 60px;
+  font-family: Raleway;
+  margin-top: 20px;
+}
+.main-text-details {
+  margin-top: 60px;
+  height: 154px;
+  width: 221px;
+  color: #121212;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 60px;
+}
+.get-started-button {
+  padding: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  box-shadow: 0 0 6px 0 rgba(73, 216, 241, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #05a398, #e3f7d8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  /* width: 230px;
+  height: 56px; */
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  color: #01a8a0;
+  font-weight: bold;
+  margin-left: 30px;
+
+  height: 56px;
+  width: 239px;
+  color: #01a8a0;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+}
+i {
+  border: solid#05a398;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  height: 0px;
+  width: 0px;
+}
+
+/* i .arrow {
+    color: #ffffff;
+    height: 10px;
+    width: 5px
+} */
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  height: 3px;
+  width: 3px;
+}
+@media (max-width: 992px) {
+  #retailer-card {
+    height: 423px;
+    width: 565px;
+  }
+}
+@media (max-width: 768px) {
+  #retailer-card {
+    height: 420px;
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  #retailer-card {
+    height: 415px;
+    width: 525px;
+  }
+}

@@ -1,0 +1,164 @@
+.footer {
+  margin-top: -1px;
+  background-image: url("https://res.cloudinary.com/dievrxv8v/image/upload/v1575574005/Footer_image_r4w1bf.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  position: relative;
+  width: 100vw;
+  height: 780px; 
+    /* height: 725px;
+    width: 1440px; */
+
+}
+.footer-row {
+  position: absolute;
+  top: 500px;
+}
+.custom-column {
+  color: white;
+}
+
+.data {
+  height: 12.85px;
+  width: 25.47px;
+}
+
+.lock {
+  height: 21px;
+  width: 16px;
+}
+.arrow {
+  color: #ffffff;
+  height: 21px;
+  width: 16px;
+}
+
+.logo-app {
+  width: 370px;
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 100;
+  left: 500px;
+}
+.play {
+  height: 51px;
+  width: 173px;
+}
+.appstore {
+  width: 173px;
+  height: 51px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
+  left: 500px;
+  z-index: 1000;
+  top: 150px;
+}
+.inner-details{
+  padding-left: 20px;
+  color: #b2b5b8;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 20px;
+}
+@media (max-width: 1200px) {
+  .footer {
+    height: 780px;
+  }
+  .appstore {
+    top: 270px;
+  }
+  .logo-app {
+    top: 150px;
+  }
+}
+
+@media (min-width: 1204px) {
+  .footer {
+    height: 780px;
+  }
+
+  .appstore {
+    top: 270px;
+  }
+  .logo-app {
+    top: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-wrap: nowrap;
+  }
+  .footer {
+    height: 788px;
+    width: 870px;
+  }
+}
+@media (max-width: 888px) {
+  .appstore {
+    width: 100px;
+  }
+  .play {
+    width: 100px;
+  }
+  .logo-app {
+    width: 300px;
+  }
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (max-width: 773px) {
+  .appstore {
+    width: 80px;
+  }
+  .play {
+    width: 80px;
+  }
+  .logo-app {
+    width: 200px;
+  }
+  .logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 667px) {
+  .appstore {
+    width: 80px;
+  }
+  .play {
+    width: 80px;
+  }
+  .logo-app {
+    width: 150px;
+  }
+  .logo {
+    width: 60px;
+  }
+}
+@media (max-width: 603px) {
+  .appstore {
+    width: 70px;
+  }
+  .play {
+    width: 70px;
+  }
+  .logo-app {
+    width: 130px;
+  }
+  .logo {
+    width: 50px;
+  }
+}

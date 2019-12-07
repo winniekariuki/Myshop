@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
+
+#customer-care-Card {
+  background-image: url("https://res.cloudinary.com/dievrxv8v/image/upload/v1575574512/Group_7_1_lmghox.jpg");
+  background-repeat: no-repeat;
+  background-size: 588px;
+  background-position: right;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 427px;
+  width: 583px;
+}
+
+.item-details {
+  margin-left: 31px;
+  main-text-align: left;
+  margin-top: 45px;
+}
+
+.customer-care {
+    min-height: 114px;
+    width: 245px;
+    color: var(--primary-black);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 52px;
+    main-text-align: left;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    padding-top: 20px;
+  }
+
+.num {
+  margin-top: 20px;
+  color: #231f20;
+  font-size: 22px;
+  font-weight: 700;
+  width: 200px;
+  main-text-align: left;
+  margin-bottom: 20px;
+}
+
+.email {
+  color: #231f20;
+  font-weight: bold;
+  line-height: 19px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.date-1 {
+  color: #231f20;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+.date-2 {
+  color: #231f20;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.get-started-button {
+  padding: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  box-shadow: 0 0 6px 0 rgba(73, 216, 241, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #05a398, #e3f7d8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  width: 230px;
+  height: 56px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 360px;
+  left: 30px;
+  color: #48ffc8;
+  font-weight: bold;
+}
+
+.item-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  #customer-care-Card {
+    height: 427px;
+    width: 583px;
+  }
+  .customer-care {
+    min-height: 114px;
+    width: 245px;
+    color: var(--primary-black);
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 57px;
+    main-text-align: left;
+    padding-left: 60px;
+    font-family: Raleway;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #customer-care-Card {
+    height: 423px;
+    width: 565px;
+  }
+}
+@media (max-width: 768px) {
+  #customer-care-Card {
+    height: 420px;
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  #customer-care-Card {
+    height: 415px;
+    width: 525px;
+  }
+}
