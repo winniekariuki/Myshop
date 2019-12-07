@@ -2,7 +2,7 @@ import React from "react";
 import "./productcard.css";
 
 const ProductPanel = props => {
-  const original_price = Math.ceil(
+  const original_price = Math.floor(
     (props.product.stock_record_price_retail * 100) /
       (100 - props.product.offer_benefit_value)
   );

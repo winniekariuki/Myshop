@@ -8,13 +8,15 @@ import TopNavBar from "../../Components/TopNavBar/index";
 import HotDeals from "../../Components/HotDeal/index";
 import "./landingpage.css";
 import { getProducts } from "../../actions/getproducts";
+import ReactLoading from "react-loading";
+import "bootstrap/dist/css/bootstrap.css";
 
 export class LandingPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       products: [],
-      isLoading: true,
+      done: undefined,
       viewableProducts: 12
     };
   }
@@ -23,9 +25,16 @@ export class LandingPage extends Component {
   }
   componentWillReceiveProps(newProps) {
     this.setState({
-      products: newProps.products,
+      products: newProps.products
     });
+    setTimeout(
+      function() {
+        this.setState({ done: true });
+      }.bind(this),
+      3000
+    );
   }
+
   handleLoadMore = () => {
     this.setState(prev => {
       return { viewableProducts: prev.viewableProducts + 12 };
@@ -44,17 +53,33 @@ export class LandingPage extends Component {
         </div>
 
         <div className="products">
-          {product_list.map((product, index) => (
-            <ProductCard product={product} key={index} />
-            
-            ))}
-          <button
-            type="button"
-            className="btn btn-success btn-lg"
-            onClick={this.handleLoadMore}
-          >
-            LOAD MORE
-          </button>
+          {!this.state.done ? (
+            <div id="loading">
+              <ReactLoading
+                id="loader"
+                type={"bars"}
+                width={"150px"}
+                height={"150px"}
+                color={"#000000"}
+              />
+            </div>
+          ) : (
+            product_list.map((product, index) => (
+              <ProductCard product={product} key={index} />
+            ))
+          )}
+       
+        </div>
+        <div id="loadmore-button">
+        {!this.state.done || (
+            <button
+              type="button"
+              className="btn btn-success btn-lg"
+              onClick={this.handleLoadMore}
+            >
+              LOAD MORE
+            </button>
+          )}
         </div>
 
         <div className="row content-holder">

@@ -13,6 +13,7 @@
     background-color:#55D187;
     margin:0 auto;
     border: none;
+    margin-left: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -33,4 +34,11 @@
    margin-top: 0px;
    justify-content: center;
    background-color: #F4F4F4;
+}
+#loading{
+    margin-right: 100px;
+    justify-content: center;
+}
+#loadmore-button{
+    background-color:#F4F4F4 ;
 }
