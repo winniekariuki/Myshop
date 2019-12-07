@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css";
+import "./productcard.css";
 
 const ProductPanel = props => {
-  const previous_price = Math.ceil(
+  const original_price = Math.ceil(
     (props.product.stock_record_price_retail * 100) /
       (100 - props.product.offer_benefit_value)
   );
@@ -24,7 +24,7 @@ const ProductPanel = props => {
           {props.product.stock_record_price_currency}
         </span>
         <span className="previous-price">
-          {previous_price} {props.product.stock_record_price_currency}
+          <strike>{original_price} {props.product.stock_record_price_currency}</strike>
         </span>
       </div>
     </div>

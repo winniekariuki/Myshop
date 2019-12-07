@@ -1,11 +1,11 @@
 import React from "react";
-import "./style.css";
+import "./retailcard.css";
 
 const divStyle = {
   height: "13px",
   width: "13px"
 };
-const CardCopy = () => {
+const RetailCard = () => {
   return (
     <div className="col-md-6 no-padding  center-flex no-padding center-flex content-holder">
       <div id="retailer-card">
@@ -27,4 +27,4 @@ const CardCopy = () => {
   );
 };
 
-export default CardCopy;
+export default RetailCard;

@@ -97,8 +97,10 @@
   .product-image {
     height: 234px;
     width: 130px;
+    padding-right: 0px;
+    padding-left: 45px;
   }
-  .previous-price {
+  .original-price {
     line-height: 2px;
     margin-left: 5px;
   }

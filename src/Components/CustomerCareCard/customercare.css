@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
 
-#customer-care-Card {
+.customer-care-Card {
   background-image: url("https://res.cloudinary.com/dievrxv8v/image/upload/v1575574512/Group_7_1_lmghox.jpg");
   background-repeat: no-repeat;
   background-size: 588px;
@@ -33,7 +33,7 @@
     padding-top: 20px;
   }
 
-.num {
+.contacts {
   margin-top: 20px;
   color: #231f20;
   font-size: 22px;
@@ -65,10 +65,10 @@
   line-height: 19px;
 }
 
-.get-started-button {
+.start-chat {
   padding: 1rem;
   font-size: 1rem;
-  padding: 0.5rem 3rem;
+  padding: -1.5rem 3rem;
   box-shadow: 0 0 6px 0 rgba(73, 216, 241, 0.5);
   border: solid 3px transparent;
   background-image: linear-gradient(
@@ -86,7 +86,7 @@
   position: absolute;
   top: 360px;
   left: 30px;
-  color: #48ffc8;
+  color: #01a8a0;
   font-weight: bold;
 }
 

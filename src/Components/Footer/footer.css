@@ -12,8 +12,6 @@
   position: relative;
   width: 100vw;
   height: 780px; 
-    /* height: 725px;
-    width: 1440px; */
 
 }
 .footer-row {
@@ -23,8 +21,19 @@
 .custom-column {
   color: white;
 }
+.sky-garden-2019 {
+	height: 14px;
+	width: 110px;
+	color: #FFFFFF;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 600;
+  line-height: 14px;
+  margin-top: 766px;
+margin-right: 381px;
 
-.data {
+}
+.car {
   height: 12.85px;
   width: 25.47px;
 }
@@ -47,7 +56,7 @@
   z-index: 100;
   left: 500px;
 }
-.play {
+.playstore{
   height: 51px;
   width: 173px;
 }
@@ -70,6 +79,28 @@
   line-height: 16px;
   margin-top: 20px;
 }
+.bottom-footer{
+  display:grid;
+
+}
+.flex-container {
+  display: flex;
+  margin-top:734px;
+  margin-right: 357px;
+}
+.flex-container > div > img {
+  height:30px;
+}
+  .privacy-policy-i-ter {
+    height: 14px;
+    width: 213px;
+    color: #56CC86;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 727px;
+  }
 @media (max-width: 1200px) {
   .footer {
     height: 780px;
@@ -108,7 +139,7 @@
   .appstore {
     width: 100px;
   }
-  .play {
+  .playstore {
     width: 100px;
   }
   .logo-app {
@@ -123,7 +154,7 @@
   .appstore {
     width: 80px;
   }
-  .play {
+  .playstore {
     width: 80px;
   }
   .logo-app {
@@ -138,7 +169,7 @@
   .appstore {
     width: 80px;
   }
-  .play {
+  .playstore {
     width: 80px;
   }
   .logo-app {
@@ -152,7 +183,7 @@
   .appstore {
     width: 70px;
   }
-  .play {
+  .playstore {
     width: 70px;
   }
   .logo-app {

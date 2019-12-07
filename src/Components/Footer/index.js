@@ -1,7 +1,11 @@
-import "./style.css";
+import "./footer.css";
 import React from "react";
+import car from '../../Images/car copy.png';
+import lock from '../../Images/lock (2) copy.png';
 import "font-awesome/css/font-awesome.min.css";
 
+const style = {
+  font:"100px "}
 const footer = () => {
   return (
     <div className="footer">
@@ -11,7 +15,7 @@ const footer = () => {
           <img
             alt="Logo"
             className="logo"
-            src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958029/SkyTest/skygarden_logo_pos_copy.png"
+            src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555823/skygarden/skygarden_logo_pos_copy_1_n2bkb9.png"
           />{" "}
           App. It's free!
         </h3>
@@ -20,8 +24,8 @@ const footer = () => {
       <div className="appstore">
         <img
           alt="Logo"
-          className="play"
-          src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958032/SkyTest/Playstore.png"
+          className="playstore"
+          src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555822/skygarden/google_tpflzh.png"
         />
       </div>
       <div className="row footer-row">
@@ -47,8 +51,8 @@ const footer = () => {
             <h5 className="custom-column">SHOPING WITH US IS EASY</h5>
               <p>
                 <img
-                  className="data"
-                  src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574964113/SkyTest/car_copy.png"
+                  className="car"
+                  src={car}
                   alt="deliver"
                 />{" "}
                 Same day delivery-text
@@ -56,13 +60,13 @@ const footer = () => {
               <p>
                 <img
                   className="lock"
-                  src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958048/SkyTest/lock_2_copy.png"
+                  src={lock}
                   alt="deliver"
                 />{" "}
                 Secure payment online or on delivery-text
               </p>
               <p>
-                <i className="fa fa-arrow-circle-left" aria-hidden="true" />
+              <span style={style}>&#8617;</span>
                 {"  "}
                 Free returns
               </p>
@@ -80,12 +84,46 @@ const footer = () => {
               </p>
               <p>
                 <i className="fa fa-linkedin-square" aria-hidden="true" />{" "}
-                LinkdIn
+                LinkedIn
               </p>
           </div>
+   
         </div>
-      </div>
     </div>
+        <div className="sky-garden-2019">&copy;sky-garden-2019</div>
+        <div className="flex-container">
+        <div><img
+          alt="mpesa"
+          className="mpesa"
+          src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555823/skygarden/mpesa_yjgg93.png"
+        />
+        </div>
+        <div>
+             <img
+          alt="equitel"
+          className="equitel"
+          src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555822/skygarden/equitel_mddyn6.png"
+          />
+        </div>
+        <div>
+           <img
+          alt="visa"
+          className="visa"
+          src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555823/skygarden/visa_r9tpuu.png"
+          />
+        </div>
+        <div>
+            <img
+          alt="mastercard"
+          className="mastercard"
+          src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555823/skygarden/mastercard_-_Copy_u0dnxc.png"
+        />
+        
+      </div>
+      </div>
+           <div className="privacy-policy-i-ter "><p>Privacy Policy| Terms and Conditions</p></div>
+        </div>
+    
   );
 };
 
