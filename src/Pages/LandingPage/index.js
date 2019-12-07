@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 import { connect } from "react-redux";
 import ProductCard from "../../Components/ProductCard";
 import Card from "../../Components/CustomerCareCard";
