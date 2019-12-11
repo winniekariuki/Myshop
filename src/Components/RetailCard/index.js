@@ -1,10 +1,6 @@
 import React from "react";
 import "./retailcard.css";
 
-const divStyle = {
-  height: "13px",
-  width: "13px"
-};
 const RetailCard = () => {
   return (
     <div className="col-md-6 no-padding  center-flex no-padding center-flex content-holder">
@@ -18,9 +14,9 @@ const RetailCard = () => {
           Open your free shop and start selling in 5 min!
         </p>
 
-        <button className="get-started-button">
+        <button className="open-shop-button">
           Open Your Shop
-          <i className="arrow right" style={divStyle}></i>
+          <i className="pointer fa fa-angle-right"></i>
         </button>
       </div>
     </div>

@@ -1,10 +1,6 @@
 import React from "react";
 import "./customercare.css";
 
-const divStyle = {
-  height: "13px",
-  width: "13px"
-};
 
 const CardCustomer = () => {
   return (
@@ -20,7 +16,8 @@ const CardCustomer = () => {
           </div>
           <button className="start-chat">
             Start Live Chart
-            {"    "} <i className="arrow right" style={divStyle}></i>
+            <i className="fa fa-angle-right"></i>
+      
           </button>
         </div>
       </div>
