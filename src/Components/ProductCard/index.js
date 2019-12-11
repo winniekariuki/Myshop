@@ -10,11 +10,11 @@ const ProductPanel = props => {
     <div className="productCard">
       <img
         src={props.product.thumbnail}
-        alt="brown bag"
+        alt="bag"
         className="product-image"
       />
       <div className="top-left"></div>
-      <p className="benefit-value"> - {props.product.offer_benefit_value} %</p>
+      <p className="benefit-value">{props.product.offer_benefit_value} %</p>
       <div className="card-body">
         <p className="product-title">{props.product.title}</p>
         <p className="product-main-text">{props.product.partner_name}</p>
@@ -23,8 +23,8 @@ const ProductPanel = props => {
           {props.product.stock_record_price_retail}{" "}
           {props.product.stock_record_price_currency}
         </span>
-        <span className="previous-price">
-          <strike>{original_price} {props.product.stock_record_price_currency}</strike>
+        <span className="original-price">
+          {original_price}.00 {props.product.stock_record_price_currency}
         </span>
       </div>
     </div>

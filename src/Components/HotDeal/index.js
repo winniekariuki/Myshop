@@ -37,7 +37,7 @@ const HotDeals = () => {
           src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575574607/discount_line_atnfu5.png"
           alt="sky garden"
         />
-        <h2 className="delivery-text">delivery-text SAME DAY!</h2>
+        <h2 className="delivery-text">DELIVERY SAME DAY!</h2>
         <h2 className="discount-value">-10%</h2>
       </div>
     </div>

@@ -92,7 +92,7 @@ const footer = () => {
     </div>
         <div className="sky-garden-2019">&copy;sky-garden-2019</div>
         <div className="flex-container">
-        <div><img
+        <div ><img
           alt="mpesa"
           className="mpesa"
           src="https://res.cloudinary.com/dievrxv8v/image/upload/v1575555823/skygarden/mpesa_yjgg93.png"

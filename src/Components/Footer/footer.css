@@ -30,7 +30,7 @@
 	font-weight: 600;
   line-height: 14px;
   margin-top: 766px;
-margin-right: 381px;
+margin-right: 340px;
 
 }
 .car {
@@ -89,7 +89,8 @@ margin-right: 381px;
   margin-right: 357px;
 }
 .flex-container > div > img {
-  height:30px;
+  height:24px;
+  padding-right:11px;
 }
   .privacy-policy-i-ter {
     height: 14px;
