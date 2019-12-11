@@ -11,28 +11,32 @@
   margin-bottom: 0;
   position: relative;
   width: 100vw;
-  height: 780px; 
+  height: 780px;
 
 }
+
 .footer-row {
   position: absolute;
   top: 500px;
 }
+
 .custom-column {
   color: white;
 }
+
 .sky-garden-2019 {
-	height: 14px;
-	width: 110px;
-	color: #FFFFFF;
-	font-family: Raleway;
-	font-size: 12px;
-	font-weight: 600;
+  height: 14px;
+  width: 110px;
+  color: #FFFFFF;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
   line-height: 14px;
   margin-top: 766px;
-margin-right: 340px;
+  margin-right: 340px;
 
 }
+
 .car {
   height: 12.85px;
   width: 25.47px;
@@ -42,6 +46,7 @@ margin-right: 340px;
   height: 21px;
   width: 16px;
 }
+
 .arrow {
   color: #ffffff;
   height: 21px;
@@ -56,10 +61,12 @@ margin-right: 340px;
   z-index: 100;
   left: 500px;
 }
-.playstore{
+
+.playstore {
   height: 51px;
   width: 173px;
 }
+
 .appstore {
   width: 173px;
   height: 51px;
@@ -70,7 +77,39 @@ margin-right: 340px;
   z-index: 1000;
   top: 150px;
 }
-.inner-details{
+
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  font-size: 29px;
+  padding-top: 1px;
+  padding-right: 31px;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+  font-weight: 800;
+
+}
+
+i {
+  border: black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 18px;
+  height: 0px;
+  color: white;
+  width: 0px;
+}
+
+
+.inner-details {
   padding-left: 20px;
   color: #b2b5b8;
   font-family: Raleway;
@@ -79,36 +118,43 @@ margin-right: 340px;
   line-height: 16px;
   margin-top: 20px;
 }
-.bottom-footer{
-  display:grid;
+
+.bottom-footer {
+  display: grid;
 
 }
+
 .flex-container {
   display: flex;
-  margin-top:734px;
+  margin-top: 734px;
   margin-right: 357px;
 }
-.flex-container > div > img {
-  height:24px;
-  padding-right:11px;
+
+.flex-container>div>img {
+  height: 24px;
+  padding-right: 11px;
 }
-  .privacy-policy-i-ter {
-    height: 14px;
-    width: 213px;
-    color: #56CC86;
-    font-family: Raleway;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 14px;
-    margin-top: 727px;
-  }
+
+.privacy-policy-i-ter {
+  height: 14px;
+  width: 213px;
+  color: #56CC86;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  margin-top: 727px;
+}
+
 @media (max-width: 1200px) {
   .footer {
     height: 780px;
   }
+
   .appstore {
     top: 270px;
   }
+
   .logo-app {
     top: 150px;
   }
@@ -122,6 +168,7 @@ margin-right: 340px;
   .appstore {
     top: 270px;
   }
+
   .logo-app {
     top: 150px;
   }
@@ -131,21 +178,26 @@ margin-right: 340px;
   .row {
     flex-wrap: nowrap;
   }
+
   .footer {
     height: 788px;
     width: 870px;
   }
 }
+
 @media (max-width: 888px) {
   .appstore {
     width: 100px;
   }
+
   .playstore {
     width: 100px;
   }
+
   .logo-app {
     width: 300px;
   }
+
   .logo {
     width: 120px;
   }
@@ -155,12 +207,15 @@ margin-right: 340px;
   .appstore {
     width: 80px;
   }
+
   .playstore {
     width: 80px;
   }
+
   .logo-app {
     width: 200px;
   }
+
   .logo {
     width: 90px;
   }
@@ -170,26 +225,33 @@ margin-right: 340px;
   .appstore {
     width: 80px;
   }
+
   .playstore {
     width: 80px;
   }
+
   .logo-app {
     width: 150px;
   }
+
   .logo {
     width: 60px;
   }
 }
+
 @media (max-width: 603px) {
   .appstore {
     width: 70px;
   }
+
   .playstore {
     width: 70px;
   }
+
   .logo-app {
     width: 130px;
   }
+
   .logo {
     width: 50px;
   }

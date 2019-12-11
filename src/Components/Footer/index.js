@@ -76,16 +76,18 @@ const footer = () => {
           <div className="inner-details">
             <h5 className="custom-column">FOLLOW OUR NEWS</h5>
               <p>
-                <i className="fa fa-facebook-official" aria-hidden="true" />{" "}
+                <a href="https://www.facebook.com/www.sky.garden/"><i className="fa fa-facebook"/></a>{" "}
                 FaceBook
               </p>
               <p>
-                <i className="fa fa-instagram" aria-hidden="true" /> Instagram
+                <a href="https://www.instagram.com/wwwskygarden/"><i className="fa fa-instagram"/></a>{" "}
+                Instagram
               </p>
               <p>
-                <i className="fa fa-linkedin-square" aria-hidden="true" />{" "}
+                <a href="https://www.linkedin.com/company/sky.garden/"><i className="fa fa-linkedin"/></a>{" "}
                 LinkedIn
               </p>
+       
           </div>
    
         </div>
