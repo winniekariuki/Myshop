@@ -10,7 +10,7 @@ const ProductPanel = props => {
     <div className="productCard">
       <img
         src={props.product.thumbnail}
-        alt="bag"
+        alt="product"
         className="product-image"
       />
       <div className="top-left"></div>
